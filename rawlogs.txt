@@ -1,0 +1,96 @@
+2020-09-11T13:26:55.6458996Z ##[section]Starting: Run Ansible Playbook
+2020-09-11T13:26:55.6476277Z ==============================================================================
+2020-09-11T13:26:55.6476767Z Task         : Ansible
+2020-09-11T13:26:55.6477295Z Description  : This task executes an Ansible playbook using a specified inventory via command line interface
+2020-09-11T13:26:55.6477796Z Version      : 0.0.5
+2020-09-11T13:26:55.6478479Z Author       : Microsoft Corporation
+2020-09-11T13:26:55.6479013Z Help         : [More Information](https://go.microsoft.com/fwlink/?linkid=853835)
+2020-09-11T13:26:55.6480899Z ==============================================================================
+2020-09-11T13:26:56.0347434Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0348208Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0348967Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0349600Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0350398Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0351026Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0351659Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0352380Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0352981Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0353940Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0354670Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0355275Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0355878Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0356596Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0357182Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0358246Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0358838Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0359528Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0360352Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0360957Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0361570Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0362192Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0362810Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0363891Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0364581Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0365198Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0365809Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0366404Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0377531Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0378403Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0379128Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0379830Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0380525Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0381232Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0381931Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0382618Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0384163Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0384901Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:56.0385593Z (node:75091) Warning: Use Cipheriv for counter mode of aes-256-ctr
+2020-09-11T13:26:57.1743065Z ansible-playbook 2.6.5
+2020-09-11T13:26:57.1743885Z   config file = /home/cvx_admin_user/agent/agent_002/_work/8622/s/ansible.cfg
+2020-09-11T13:26:57.1744955Z   configured module search path = [u'/home/cvx_admin_user/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+2020-09-11T13:26:57.1745891Z   ansible python module location = /home/cvx_admin_user/.ansible-virtualenv/lib/python2.7/site-packages/ansible
+2020-09-11T13:26:57.1746711Z   executable location = /home/cvx_admin_user/.ansible-virtualenv/bin/ansible-playbook
+2020-09-11T13:26:57.1747565Z   python version = 2.7.5 (default, Aug  7 2019, 00:51:29) [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+2020-09-11T13:26:57.1748230Z Using /home/cvx_admin_user/agent/agent_002/_work/8622/s/ansible.cfg as config file
+2020-09-11T13:26:57.2121756Z  [WARNING]: Unable to parse /etc/ansible/hosts as an inventory source
+2020-09-11T13:26:57.2122402Z  [WARNING]: No inventory was parsed, only implicit localhost is available
+2020-09-11T13:26:57.2216249Z  [WARNING]: provided hosts list is empty, only localhost is available. Note
+2020-09-11T13:26:57.2217756Z that the implicit localhost does not match 'all'
+2020-09-11T13:26:58.3950401Z 
+2020-09-11T13:26:58.3951201Z PLAYBOOK: main.yml *************************************************************
+2020-09-11T13:26:58.3951734Z 3 plays in /home/cvx_admin_user/agent/agent_002/_work/8622/s/main.yml
+2020-09-11T13:26:58.4439262Z 
+2020-09-11T13:26:58.4440511Z PLAY [localhost] ***************************************************************
+2020-09-11T13:26:58.4612186Z 
+2020-09-11T13:26:58.4613086Z TASK [Gathering Facts] *********************************************************
+2020-09-11T13:26:58.4614227Z task path: /home/cvx_admin_user/agent/agent_002/_work/8622/s/main.yml:2
+2020-09-11T13:26:58.4615630Z Friday 11 September 2020  09:26:58 -0400 (0:00:00.167)       0:00:00.167 ****** 
+2020-09-11T13:26:59.6320796Z ok: [localhost]
+2020-09-11T13:27:00.2446042Z META: ran handlers
+2020-09-11T13:27:00.2448971Z META: ran handlers
+2020-09-11T13:27:00.2449804Z META: ran handlers
+2020-09-11T13:27:00.2534954Z 
+2020-09-11T13:27:00.2535779Z PLAY [localhost] ***************************************************************
+2020-09-11T13:27:00.3204023Z 
+2020-09-11T13:27:00.3205387Z TASK [Gathering Facts] *********************************************************
+2020-09-11T13:27:00.3210504Z task path: /home/cvx_admin_user/agent/agent_002/_work/8622/s/create-adb.yml:1
+2020-09-11T13:27:00.3211702Z Friday 11 September 2020  09:27:00 -0400 (0:00:01.861)       0:00:02.029 ****** 
+2020-09-11T13:27:01.1156566Z ok: [localhost]
+2020-09-11T13:27:01.5849176Z 
+2020-09-11T13:27:01.5850327Z TASK [Include variable based on environment type] ******************************
+2020-09-11T13:27:01.5851913Z task path: /home/cvx_admin_user/agent/agent_002/_work/8622/s/create-adb.yml:10
+2020-09-11T13:27:01.5852743Z Friday 11 September 2020  09:27:01 -0400 (0:00:01.263)       0:00:03.293 ****** 
+2020-09-11T13:27:01.6322347Z fatal: [localhost]: FAILED! => {"ansible_facts": {}, "ansible_included_var_files": [], "changed": false, "message": "Could not find or access 'environments/dev/adb-custom.yml'\nSearched in:\n\t/home/cvx_admin_user/agent/agent_002/_work/8622/s/vars/environments/dev/adb-custom.yml\n\t/home/cvx_admin_user/agent/agent_002/_work/8622/s/environments/dev/adb-custom.yml\n\t/home/cvx_admin_user/agent/agent_002/_work/8622/s/vars/environments/dev/adb-custom.yml\n\t/home/cvx_admin_user/agent/agent_002/_work/8622/s/environments/dev/adb-custom.yml on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2020-09-11T13:27:01.9280592Z 
+2020-09-11T13:27:01.9281444Z PLAY RECAP *********************************************************************
+2020-09-11T13:27:01.9282332Z localhost                  : ok=2    changed=0    unreachable=0    failed=1   
+2020-09-11T13:27:01.9282639Z 
+2020-09-11T13:27:01.9526326Z Friday 11 September 2020  09:27:01 -0400 (0:00:00.367)       0:00:03.661 ****** 
+2020-09-11T13:27:01.9527053Z =============================================================================== 
+2020-09-11T13:27:01.9527746Z setup ------------------------------------------------------------------- 3.13s
+2020-09-11T13:27:01.9528396Z include_vars ------------------------------------------------------------ 0.37s
+2020-09-11T13:27:01.9528876Z ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+2020-09-11T13:27:01.9529523Z total ------------------------------------------------------------------- 3.49s
+2020-09-11T13:27:01.9529980Z Playbook run took 0 days, 0 hours, 0 minutes, 3 seconds
+2020-09-11T13:27:02.0241171Z ##[error]Command ansible-playbook /home/cvx_admin_user/agent/agent_002/_work/8622/s/main.yml -e "@extra_ansible_vars.yml" -vv exited with code 2.
+2020-09-11T13:27:02.0258695Z ##[section]Finishing: Run Ansible Playbook

@@ -1,0 +1,52 @@
+f6wrmhllp6hqgrb27feb2kajgkba3oz45lleclwlbbnxb65tdr4a
+
+sethuramanannamalai 
+
+
+
+git config --global user.name "sethuramanannamalai" 
+git config user.email "sethuramanannaamalai@chevron.com" 
+
+---
+
+- hosts: localhost 
+  connection: local
+
+
+# Resource creation steps for Azure cloud
+
+#- import_playbook: create_db.yml
+
+#- import_playbook: create_sm.yml
+
+#- import_playbook: create_ds.yml
+
+#- import_playbook: create_fc.yml
+
+#- import_playbook: create_bh.yml
+
+#- import_playbook: create_lc.yml
+
+#- import_playbook: create_oh.yml
+
+#- import_playbook: create_aj.yml
+
+#- import_playbook: create_bs.yml
+
+
+  roles:
+   - role: ansible-role-azure-asg
+
+   - role: ansible-role-azure-nsg
+     azure_nsg_security_rules:
+       - name: "AllowJDESMBInbound"
+         properties:
+           description: "Allow JDE SMB Port 445 Inbound"
+           protocol: Tcp
+           sourcePortRange: "*"
+           sourceAddressPrefix: VirtualNetwork
+           destinationApplicationSecurityGroups: "{{ cvx_mnemonic | lower }}-default-{{ cvx_az_regions_rev[azure_asg_location] }}-{{ cvx_az_defaults.subscription_mnemonic }}-{{ cvx_environment_name }}"
+           destinationPortRange: '445'
+           access: Allow
+           priority: 2500
+           direction: Inbound
